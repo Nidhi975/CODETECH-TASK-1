@@ -27,7 +27,7 @@ The password strength text is given a margin-top of 10px and a bold font weight.
 5) JavaScript:The calculatePasswordStrength function takes a password as input and calculates a score based on the length and complexity of the password.
 The function checks the length of the password and assigns a score of 1 or 2 based on whether the password is at least 8 characters or 12 characters long, respectively.
 The function then checks the complexity of the password by looking for the presence of uppercase letters, lowercase letters, numbers, and symbols. The score is assigned based on the number of these character types present.
-The function does not include the uniqueness check, as that functionality is not implemented in this example.
+The function does not include the uniqueness check.
 The input event listener is attached to the password input field. Whenever the user types or changes the password, the calculatePasswordStrength function is called, and the password strength bar and text are updated accordingly.
-The password strength bar's width is set to the percentage of the maximum score (6) that the current password score represents.
+The password strength bar's width is set to the percentage of the maximum score that the current password score represents.
 The password strength text is updated to display "Weak password", "Medium password", or "Strong password" based on the calculated score.
