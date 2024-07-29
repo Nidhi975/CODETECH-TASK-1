@@ -18,7 +18,7 @@ KEY ACTIVITIES:: TO CHECK THE STRENGTH OF THE PASSWORD
    
 TECHNOLOGY USED AND CODE EXPLANATION::
 1) HTML:: The HTML structure includes a <title> for the page, a <style> section for CSS, and a <script> section for the JavaScript code.
-The body contains an <h1> heading, an <input> field for the user to enter the password, and two <div> elements: one for the password strength bar and one for the password strength text.
+The body contains an  heading, an input field for the user to enter the password, and two div elements: one for the password strength bar and one for the password strength text.
 
 3) CSS:The CSS styles the layout and appearance of the page, including the font, text alignment, input field, password strength bar, and password strength text.
 The password strength bar is given a height of 20px and a width that will be dynamically updated by the JavaScript code.
