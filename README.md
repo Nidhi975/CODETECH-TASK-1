@@ -36,3 +36,4 @@ The function does not include the uniqueness check.
 The input event listener is attached to the password input field. Whenever the user types or changes the password, the calculatePasswordStrength function is called, and the password strength bar and text are updated accordingly.
 The password strength bar's width is set to the percentage of the maximum score that the current password score represents.
 The password strength text is updated to display "Weak password", "Medium password", or "Strong password" based on the calculated score.
+![1000125433](https://github.com/user-attachments/assets/cd996342-bda6-4146-a968-6a376d7f1194)
